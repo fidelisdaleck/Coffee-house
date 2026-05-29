@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/header";
+import { MenuSection } from "@/components/menu/menuSection";
 import {Truck, Coffee, MapPin, Bean, Sprout,} from "lucide-react";
 
 export default function Home() {
@@ -13,7 +14,7 @@ export default function Home() {
       <Header/>
       <main>
         {/* hero section */}
-        <section className="bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/banner.png')] bg-cover bg-center min-h-[70vh] p-7 md:p-10 space-y-5">
+        <section className="bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/banner.png')] bg-cover bg-center min-h-[70vh] p-7 md:p-20 space-y-5">
           <div className="space-y-2 md:space-y-3 flex flex-col justify-center ">
             <h1 className="text-3xl md:text-6xl text-white">Plus qu&rsquo;un café,</h1>
             <h1 className="text-3xl md:text-6xl text-white"> Une veritable <span className="text-[#daa170]">experience.</span></h1>
@@ -43,7 +44,7 @@ export default function Home() {
         <section className="mt-20 px-5 md:px-20 space-x-3 md:space-x-10 grid grid-cols-4 space-y-5 md:space-y-0">
 
           {/* col-1 */}
-          <div className="flex flex-col md:flex-row gap-3">
+          <div className="flex flex-col md:flex-row gap-3 border-r border-r-gray-400 pr-5">
             <Bean size={30} className="text-[#c08b5c]" />
             <div>
               <h3 className="md:text-xl text-5 font-semibold md:font-bold text-[#111827] ">Cafés de spécialité</h3>
@@ -54,7 +55,7 @@ export default function Home() {
           </div>
 
           {/* Col-2 */}
-          <div className="flex flex-col  md:flex-row gap-3">
+          <div className="flex flex-col  md:flex-row gap-3 border-r border-r-gray-400 pr-5">
             <Sprout size={30} className="text-[#c08b5c]" />
             <div>
               <h3 className="md:text-xl text-5 font-semibold md:font-bold text-[#111827] ">Produits qualifiés</h3>
@@ -65,7 +66,7 @@ export default function Home() {
           </div>
 
           {/* Col-3 */}
-          <div className="flex flex-col  md:flex-row gap-3">
+          <div className="flex flex-col  md:flex-row gap-3 border-r border-r-gray-400 pr-5">
             <Coffee size={30} className="text-[#c08b5c]" />
             <div>
               <h3 className="md:text-xl text-5 font-semibold md:font-bold text-[#111827] ">Fait avec passion</h3>
@@ -76,7 +77,7 @@ export default function Home() {
           </div>
 
           {/* Col-4 */}
-          <div className="flex  flex-col md:flex-row gap-3">
+          <div className="flex  flex-col md:flex-row gap-3 border-r border-r-gray-400 pr-5">
             <MapPin size={30} className="text-[#c08b5c]" />
             <div>
               <h3 className="md:text-xl text-5 font-semibold md:font-bold text-[#111827] ">Local & convivial</h3>
@@ -85,6 +86,11 @@ export default function Home() {
               </p>
             </div>
           </div>
+        </section>
+
+        {/* SEMI  MENU */}
+        <section className="mt-20 px-5 md:px-20">
+          <MenuSection />
         </section>
       </main>
     </>
