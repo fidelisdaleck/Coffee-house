@@ -23,7 +23,7 @@ export const MenuSection = () => {
         );
 
   return (
-    <section className="flex gap-10">
+    <section className="flex md:flex-row flex-col gap-10">
 
       {/* LEFT */}
       <div className="w-62">

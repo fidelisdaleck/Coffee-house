@@ -44,10 +44,10 @@ export default function Home() {
         <section className="mt-20 px-5 md:px-20 space-x-3 md:space-x-10 grid grid-cols-4 space-y-5 md:space-y-0">
 
           {/* col-1 */}
-          <div className="flex flex-col md:flex-row gap-3 border-r border-r-gray-400 pr-5">
+          <div className="flex flex-col md:flex-row gap-3 border-r border-r-gray-400 pr-2 md:pr-5">
             <Bean size={30} className="text-[#c08b5c]" />
             <div>
-              <h3 className="md:text-xl text-5 font-semibold md:font-bold text-[#111827] ">Cafés de spécialité</h3>
+              <h3 className="md:text-xl text-5 font-semibold md:font-bold text-[#111827] ">Cafés de qualité</h3>
               <p className="text-gray-600 hidden md:block">
                 Grains 100% Africains sourcés esthetiquement.
               </p>
@@ -55,7 +55,7 @@ export default function Home() {
           </div>
 
           {/* Col-2 */}
-          <div className="flex flex-col  md:flex-row gap-3 border-r border-r-gray-400 pr-5">
+          <div className="flex flex-col  md:flex-row gap-3 border-r border-r-gray-400 pr-2 md:pr-5">
             <Sprout size={30} className="text-[#c08b5c]" />
             <div>
               <h3 className="md:text-xl text-5 font-semibold md:font-bold text-[#111827] ">Produits qualifiés</h3>
@@ -66,7 +66,7 @@ export default function Home() {
           </div>
 
           {/* Col-3 */}
-          <div className="flex flex-col  md:flex-row gap-3 border-r border-r-gray-400 pr-5">
+          <div className="flex flex-col  md:flex-row gap-3 border-r border-r-gray-400 pr-2 md:pr-5">
             <Coffee size={30} className="text-[#c08b5c]" />
             <div>
               <h3 className="md:text-xl text-5 font-semibold md:font-bold text-[#111827] ">Fait avec passion</h3>
@@ -77,7 +77,7 @@ export default function Home() {
           </div>
 
           {/* Col-4 */}
-          <div className="flex  flex-col md:flex-row gap-3 border-r border-r-gray-400 pr-5">
+          <div className="flex  flex-col md:flex-row gap-3 border-r border-r-gray-400 pr-2 md:pr-5">
             <MapPin size={30} className="text-[#c08b5c]" />
             <div>
               <h3 className="md:text-xl text-5 font-semibold md:font-bold text-[#111827] ">Local & convivial</h3>
