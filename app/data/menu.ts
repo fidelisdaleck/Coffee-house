@@ -3,7 +3,7 @@
 export const menuItems =[
     {
         id: 1,
-        name: "cappuccino",
+        name: "Cappuccino",
         category: "incontournable",
         price: 2500,
         image: "/coffee/cappuchino.jpg",
@@ -11,7 +11,7 @@ export const menuItems =[
 
     {
         id: 2,
-        name: "smothie mangue",
+        name: "Smothie mangue",
         category: "incontournable",
         price: 2500,
         image:"/smothie/smothie mangue.jpg",

@@ -45,9 +45,9 @@ export default function Home() {
 
           {/* col-1 */}
           <div className="flex flex-col md:flex-row gap-3 items-center border-r border-r-gray-400 p-5 lg:p-5">
-            <Bean size={50} className="text-[#c08b5c]" />
+            <Bean size={40} className="text-[#c08b5c]" />
             <div>
-              <h3 className="md:text-xl text-5 font-semibold md:font-bold text-[#111827] ">Cafés de specialité</h3>
+              <h3 className="md:text-lg text-5 font-semibold md:font-bold text-[#111827] ">Cafés de specialité</h3>
               <p className="text-gray-600 hidden md:block">
                 Grains 100% Africains sourcés esthetiquement.
               </p>
@@ -56,9 +56,9 @@ export default function Home() {
 
           {/* Col-2 */}
           <div className="flex flex-col  md:flex-row gap-3 items-center border-r border-r-gray-400 p-5 lg:p-5">
-            <Sprout size={50} className="text-[#c08b5c]" />
+            <Sprout size={40} className="text-[#c08b5c]" />
             <div>
-              <h3 className="md:text-xl text-5 font-semibold md:font-bold text-[#111827] ">Produits qualifiés</h3>
+              <h3 className="md:text-lg text-5 font-semibold md:font-bold text-[#111827] ">Produits qualifiés</h3>
               <p className="text-gray-600 hidden md:block">
                 Patisseries et produits locaux livrees chaque jour.
               </p>
@@ -67,9 +67,9 @@ export default function Home() {
 
           {/* Col-3 */}
           <div className="flex flex-col  md:flex-row gap-3 items-center lg:border-r border-r-gray-400 p-5 lg:p-5">
-            <Coffee size={50} className="text-[#c08b5c]" />
+            <Coffee size={40} className="text-[#c08b5c]" />
             <div>
-              <h3 className="md:text-xl text-5 font-semibold md:font-bold text-[#111827] ">Fait avec passion</h3>
+              <h3 className="md:text-lg text-5 font-semibold md:font-bold text-[#111827] ">Fait de passion</h3>
               <p className="text-gray-600 hidden md:block">
                 Preparé par nos baristas experts.
               </p>
@@ -78,7 +78,7 @@ export default function Home() {
 
           {/* Col-4 */}
           <div className="lg:flex  flex-col md:flex-row gap-3 items-center hidden p-5 md:p-0">
-            <MapPin size={50} className="text-[#c08b5c]" />
+            <MapPin size={40} className="text-[#c08b5c]" />
             <div>
               <h3 className="md:text-xl text-5 font-semibold md:font-bold text-[#111827] ">Local & convivial</h3>
               <p className="text-gray-600">
