@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <div className="flex items-center justify-center gap-2 bg-[#533a28] p-4">
-          <Truck size={30} className="text-[#c08b5c]" />
+          <Truck size={50} className="text-[#c08b5c]" />
           <p className="text-white text-10 md:text-5">Livraison gratuite a partir de 5000 Fcfa d&rsquo;achat.</p>
       </div>
       <Header/>
@@ -44,8 +44,8 @@ export default function Home() {
         <section className="mt-20 px-5 md:px-20 space-x-3 md:space-x-10 grid grid-cols-3 lg:grid-cols-4 space-y-5 md:space-y-0">
 
           {/* col-1 */}
-          <div className="flex flex-col md:flex-row gap-3 border-r border-r-gray-400 p-5 lg:p-5">
-            <Bean size={30} className="text-[#c08b5c]" />
+          <div className="flex flex-col md:flex-row gap-3 items-center border-r border-r-gray-400 p-5 lg:p-5">
+            <Bean size={50} className="text-[#c08b5c]" />
             <div>
               <h3 className="md:text-xl text-5 font-semibold md:font-bold text-[#111827] ">Cafés de specialité</h3>
               <p className="text-gray-600 hidden md:block">
@@ -55,8 +55,8 @@ export default function Home() {
           </div>
 
           {/* Col-2 */}
-          <div className="flex flex-col  md:flex-row gap-3 border-r border-r-gray-400 p-5 lg:p-5">
-            <Sprout size={30} className="text-[#c08b5c]" />
+          <div className="flex flex-col  md:flex-row gap-3 items-center border-r border-r-gray-400 p-5 lg:p-5">
+            <Sprout size={50} className="text-[#c08b5c]" />
             <div>
               <h3 className="md:text-xl text-5 font-semibold md:font-bold text-[#111827] ">Produits qualifiés</h3>
               <p className="text-gray-600 hidden md:block">
@@ -66,8 +66,8 @@ export default function Home() {
           </div>
 
           {/* Col-3 */}
-          <div className="flex flex-col  md:flex-row gap-3 lg:border-r border-r-gray-400 p-5 lg:p-5">
-            <Coffee size={30} className="text-[#c08b5c]" />
+          <div className="flex flex-col  md:flex-row gap-3 items-center lg:border-r border-r-gray-400 p-5 lg:p-5">
+            <Coffee size={50} className="text-[#c08b5c]" />
             <div>
               <h3 className="md:text-xl text-5 font-semibold md:font-bold text-[#111827] ">Fait avec passion</h3>
               <p className="text-gray-600 hidden md:block">
@@ -77,8 +77,8 @@ export default function Home() {
           </div>
 
           {/* Col-4 */}
-          <div className="lg:flex  flex-col md:flex-row gap-3 hidden p-5 md:p-0">
-            <MapPin size={30} className="text-[#c08b5c]" />
+          <div className="lg:flex  flex-col md:flex-row gap-3 items-center hidden p-5 md:p-0">
+            <MapPin size={50} className="text-[#c08b5c]" />
             <div>
               <h3 className="md:text-xl text-5 font-semibold md:font-bold text-[#111827] ">Local & convivial</h3>
               <p className="text-gray-600">
