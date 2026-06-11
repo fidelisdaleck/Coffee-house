@@ -59,10 +59,10 @@ export const menuItems =[
 
     {
         id: 9,
-        name: "The glace",
+        name: "Thé glace",
         category: "cold",
         price: 2500,
-        image: "/coffee/the glacee.jpg",
+        image: "/coffee/the glace.jpg",
     },
 
     {
@@ -85,7 +85,7 @@ export const menuItems =[
         id: 12,
         name: "Shawarma Poulet",
         category: "mignardise",
-        price: 2500,
+        price: 1500,
         image: "/mignardise/shawarma poulet.jpg",
     },
 
@@ -93,12 +93,20 @@ export const menuItems =[
         id: 13,
         name: "Hamburger",
         category: "mignardise",
-        price: 2500,
+        price: 1000,
         image: "/mignardise/hamburger.jpg",
     },
 
     {
         id: 14,
+        name: "Tacos",
+        category: "mignardise",
+        price: 2000,
+        image: "/mignardise/tacos.jpg",
+    },
+
+    {
+        id: 15,
         name: "Croissant au chocolat",
         category: "croissant",
         price: 700,
@@ -106,11 +114,50 @@ export const menuItems =[
     },
 
     {
-        id: 15,
+        id: 16,
         name: "Croissant farci a la viande",
         category: "croissant",
-        price: 1000,
+        price: 2000,
         image: "/croissant/croissant farcie a la viande.jpg",
+    },
+
+    {
+        id: 17,
+        name: "combo croissant-cappucino",
+        category: "croissant",
+        price: 3000,
+        image: "/croissant/combo croissant-cappucino.jpg",
+    },
+
+    {
+        id: 18,
+        name: "Croissant",
+        category: "croissant",
+        price: 500,
+        image: "/croissant/croissant.jpg",
+    },
+
+    {
+        id: 19,
+        name: "Smothie Ananas",
+        category: "cold",
+        price: 2500,
+        image:"/smothie/smothie ananas.jpg",
+    },
+    {
+        id: 20,
+        name: "Milkshake Fraise",
+        category: "cold",
+        price: 2500,
+        image: "/milkshake/milkshake fraise.jpg",
+    },
+
+    {
+        id: 21,
+        name: "Mucciato Lacté",
+        category: "hot",
+        price: 2500,
+        image:"/coffee/mucciato (2).jpg",
     },
 
 ];

@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/header";
 import { MenuSection } from "@/components/menu/menuSection";
-import {Truck, Coffee, MapPin, Bean, Sprout,} from "lucide-react";
+import {Truck, Coffee, MapPin, Bean, Sprout, Heart, Users} from "lucide-react";
 
 export default function Home() {
   return (
@@ -91,6 +91,71 @@ export default function Home() {
         {/* SEMI  MENU */}
         <section className="mt-20 px-5 md:px-20">
           <MenuSection />
+        </section>
+
+        {/* NOTRE HISTOIRE */}
+        <section className="flex flex-col md:flex-row items-center gap-10 mt-20 px-5 md:px-20">
+          {/* Briefing */}
+          <section className="mt-20 px-5 md:px-20">
+            <div className="mb-10">
+              <h2 className="text-10 mb-2 font-bold text-[#333333]">Notre histoire</h2>
+              <div className="w-10 h-1 bg-[#c08b5c] rounded-full mb-4"></div>
+            </div>
+
+            <div className="space-y-5">
+              <p className="text-3xl md:text-5xl">Un lieu, une passion : <span className="text-[#c08b5c]">Le café.</span> </p>
+              <p className="text-10">
+                Depuis 2020, <span className="text-[#c08b5c]">CoffeeHouse </span>
+                selectionne les meilleurs grains et vous acceuille dans un espace chaleureux ou chaque detail compte.
+              </p>
+              <Link href="/menu">
+                <button className="flex items-center gap-2 bg-[#be8451] text-white px-5 py-3 rounded-lg cursor-pointer hover:bg-[#753904] transition-all duration-300">
+                  EN SAVOIR PLUS
+                </button>
+              </Link>
+            </div>
+
+            {/* grille de resume */}
+            <div className="mt-10 grid grid-cols-3">
+    
+              {/* col-1 */}
+              <div className="flex flex-col items-center gap-1 border-r border-r-gray-400">
+                <Coffee size={40} className="text-[#c08b5c]" />
+                  <h3 className="md:text-xl text-10 font-semibold md:font-bold text-[#111827] ">12 K</h3>
+                  <p className="text-gray-600 text-5 hidden md:block">
+                    Plats servis.
+                  </p>
+              </div>
+
+              {/* col-2 */}
+              <div className="flex flex-col items-center gap-1 border-r border-r-gray-400">
+                <Heart size={40} className="text-[#c08b5c]" />
+                  <h3 className="md:text-xl text-10 font-semibold md:font-bold text-[#111827] ">4/5</h3>
+                  <p className="text-gray-600 text-5 hidden md:block">
+                    Avis clients.
+                  </p>
+              </div>
+
+              {/* col-3 */}
+              <div className="flex flex-col items-center gap-1">
+                <Users size={40} className="text-[#c08b5c]" />
+                <h3 className="md:text-xl text-10 font-semibold md:font-bold text-[#111827] ">50+</h3>
+                <p className="text-gray-600 text-5 hidden md:block">
+                  Baristas passionnés.
+                </p>
+              </div>  
+            </div>
+          </section>
+          {/* Image */}
+          <section className="">
+            <Image
+              src="/interfaceb.jpg"
+              alt="notre histoire"
+              width={2000}
+              height={1000}
+              className="w-full h-auto rounded-lg object-cover"
+            />
+          </section>
         </section>
       </main>
     </>
