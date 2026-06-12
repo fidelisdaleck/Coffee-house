@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/header";
+// import Footer from "@/components/footer";
 import { MenuSection } from "@/components/menu/menuSection";
 import {Truck, Coffee, MapPin, Bean, Sprout, Heart, Users} from "lucide-react";
 
@@ -96,14 +97,14 @@ export default function Home() {
         {/* NOTRE HISTOIRE */}
         <section className="flex flex-col md:flex-row items-center gap-10 mt-20 px-5 md:px-20">
           {/* Briefing */}
-          <section className="mt-20 px-5 md:px-20">
+          <section className="mt-20 px-5 md:px-10">
             <div className="mb-10">
               <h2 className="text-10 mb-2 font-bold text-[#333333]">Notre histoire</h2>
               <div className="w-10 h-1 bg-[#c08b5c] rounded-full mb-4"></div>
             </div>
 
             <div className="space-y-5">
-              <p className="text-3xl md:text-5xl">Un lieu, une passion : <span className="text-[#c08b5c]">Le café.</span> </p>
+              <p className="text-3xl md:text-5xl">Un lieu, une passion: <span className="text-[#c08b5c]">Le café.</span> </p>
               <p className="text-10">
                 Depuis 2020, <span className="text-[#c08b5c]">CoffeeHouse </span>
                 selectionne les meilleurs grains et vous acceuille dans un espace chaleureux ou chaque detail compte.
@@ -121,7 +122,7 @@ export default function Home() {
               {/* col-1 */}
               <div className="flex flex-col items-center gap-1 border-r border-r-gray-400">
                 <Coffee size={40} className="text-[#c08b5c]" />
-                  <h3 className="md:text-xl text-10 font-semibold md:font-bold text-[#111827] ">12 K</h3>
+                  <h3 className="md:text-2xl text-10 font-semibold md:font-bold text-[#111827] ">12 K</h3>
                   <p className="text-gray-600 text-5 hidden md:block">
                     Plats servis.
                   </p>
@@ -130,7 +131,7 @@ export default function Home() {
               {/* col-2 */}
               <div className="flex flex-col items-center gap-1 border-r border-r-gray-400">
                 <Heart size={40} className="text-[#c08b5c]" />
-                  <h3 className="md:text-xl text-10 font-semibold md:font-bold text-[#111827] ">4/5</h3>
+                  <h3 className="md:text-2xl text-10 font-semibold md:font-bold text-[#111827] ">4.9/5</h3>
                   <p className="text-gray-600 text-5 hidden md:block">
                     Avis clients.
                   </p>
@@ -139,7 +140,7 @@ export default function Home() {
               {/* col-3 */}
               <div className="flex flex-col items-center gap-1">
                 <Users size={40} className="text-[#c08b5c]" />
-                <h3 className="md:text-xl text-10 font-semibold md:font-bold text-[#111827] ">50+</h3>
+                <h3 className="md:text-2xl text-10 font-semibold md:font-bold text-[#111827] ">50+</h3>
                 <p className="text-gray-600 text-5 hidden md:block">
                   Baristas passionnés.
                 </p>
