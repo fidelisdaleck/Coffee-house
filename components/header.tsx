@@ -36,9 +36,6 @@ export default function Header() {
         <Link href="/menu" className={navLinkClass("/menu")}>
           Menu
         </Link>
-        <Link href="/coffee" className={navLinkClass("/coffee")}>
-          Nos cafés
-        </Link>
         <Link href="/about" className={navLinkClass("/about")}>
           A propos
         </Link>
@@ -86,9 +83,6 @@ export default function Header() {
             </Link>
             <Link href="/menu" className={navLinkClass("/menu")}>
               Menu
-            </Link>
-            <Link href="/coffee" className={navLinkClass("/coffee")}>
-              Nos cafés
             </Link>
             <Link href="/about" className={navLinkClass("/about")}>
               A propos

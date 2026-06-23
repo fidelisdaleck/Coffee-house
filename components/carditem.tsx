@@ -11,16 +11,8 @@ interface MenuItemProps {
 
 export const MenuItem = ({ name, price, image }: MenuItemProps) => {
   return (
-    <div
-      className="rounded-2xl
-        overflow-hidden
-        shadow-lg
-        hover:shadow-2xl
-        hover:-translate-y-2
-        transition-all
-        duration-300"
-    >
-      <div className="relative w-full h-48">
+    <div className="rounded-xl shadow-lg hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
+      <div className="relative w-full h-50 overflow-hidden rounded-t-xl">
         <Image
           src={image}
           alt={name}
