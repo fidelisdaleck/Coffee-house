@@ -3,16 +3,14 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
-import { useTheme } from "next-themes";
+// import { useTheme } from "next-themes";
 import { usePathname } from "next/navigation";
 import { X, Menu, ShoppingCart, User } from "lucide-react";
-import motion from "framer-motion";
 
 export default function Header() {
   const [IsMenuOpen, setIsMenuOpen] = useState(false);
   const pathname = usePathname();
-  const { setTheme, resolvedTheme } = useTheme();
-  const isDark = resolvedTheme === "dark";
+  // const { setTheme, resolvedTheme } = useTheme();
   const navLinkClass = (path: string) =>
     `text-lg font-medium px-4 py-2 rounded-xl transition-all duration-300
   ${
