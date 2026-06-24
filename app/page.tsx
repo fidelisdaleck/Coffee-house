@@ -150,7 +150,7 @@ export default function Home() {
                 selectionne les meilleurs grains et vous acceuille dans un
                 espace chaleureux ou chaque detail compte.
               </p>
-              <Link href="/menu">
+              <Link href="/about">
                 <button className="flex items-center gap-2 bg-[#be8451] text-white px-5 py-3 rounded-lg cursor-pointer hover:bg-[#753904] transition-all duration-300">
                   EN SAVOIR PLUS
                 </button>
