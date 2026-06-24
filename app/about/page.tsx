@@ -171,38 +171,7 @@ export default function About() {
       {/* NOTRE EQUIPE */}
       <section >
         <div className="gap-10 grid md:grid-cols-4 grid-cols-1 mb-20">
-            {/* col-1 */}
-            <div className="shadow-xl py-10 px-5 rounded-lg">
-            <div className="flex items-center gap-2">
-                <Image
-                src="/testimonies/user2.jpg"
-                alt="client 1"
-                width={100}
-                height={100}
-                className="w-16 h-16 rounded-full object-cover border border-gray-300"
-                />
-
-                <div className="space-y-1 flex flex-col">
-                <h3 className="font-semibold text-[#111827] text-xl">
-                    Hang Ye-Ri
-                </h3>
-                <div className="flex items-center gap-1">
-                    <Star className="w-5 h-5 text-yellow-500 fill-current" />
-                    <Star className="w-5 h-5 text-yellow-500 fill-current" />
-                    <Star className="w-5 h-5 text-yellow-500 fill-current" />
-                    <Star className="w-5 h-5 text-yellow-500 fill-current" />
-                </div>
-                </div>
-            </div>
-
-            <div>
-                <p className="text-gray-600 mt-2 text-italic">
-                l&rsquo;atmosphere est incroyable, parfaite pour travailler ou se
-                detendre
-                </p>
-                <Quote size={30} className="mt-4 text-[#111827]" />
-            </div>
-            </div>
+          
         </div>    
       </section>
     </>
