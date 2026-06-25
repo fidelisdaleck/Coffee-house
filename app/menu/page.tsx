@@ -338,7 +338,7 @@ export default function Menu() {
 
             <CarouselItem className="basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/4">
               <MenuItem
-                name="Burger"
+                name="Sandwich"
                 price={1000}
                 image="/mignardise/burger.jpg"
               />
@@ -346,7 +346,7 @@ export default function Menu() {
 
             <CarouselItem className="basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/4">
               <MenuItem
-                name="Hamburger"
+                name="Sandwich jambon"
                 price={1000}
                 image="/mignardise/hamburger.jpg"
               />

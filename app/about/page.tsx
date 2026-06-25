@@ -121,48 +121,48 @@ export default function About() {
           </p>
         </div>
 
-        <div className="mt-20 grid grid-cols-2 md:grid-cols-4">
+        <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-5 md:gap-10">
           {/* col-1 */}
-          <div className="flex flex-col items-center gap-1 border-r border-r-gray-400">
+          <div className="flex flex-col items-center gap-1">
             <Coffee size={30} className="text-[#c08b5c]" />
             <h3 className="md:text-2xl text-10 font-semibold md:font-bold text-[#111827] ">
               +10 K
             </h3>
-            <p className="text-gray-600 text-5 hidden md:block">
+            <p className="text-gray-600 text-5">
               Cafés servis.
             </p>
           </div>
 
           {/* col-2 */}
-          <div className="flex flex-col items-center gap-1 border-r border-r-gray-400">
+          <div className="flex flex-col items-center gap-1">
             <Smile size={30} className="text-[#c08b5c]" />
             <h3 className="md:text-2xl text-10 font-semibold md:font-bold text-[#111827] ">
               5 K+
             </h3>
-            <p className="text-gray-600 text-5 hidden md:block">
+            <p className="text-gray-600 text-5">
               Clients satisfaits.
             </p>
           </div>
 
           {/* col-3 */}
-          <div className="flex flex-col items-center gap-1 border-r border-r-gray-400">
+          <div className="flex flex-col items-center gap-1">
             <Star size={30} className="text-[#c08b5c]" />
             <h3 className="md:text-2xl text-10 font-semibold md:font-bold text-[#111827] ">
               4/5
             </h3>
-            <p className="text-gray-600 text-5 hidden md:block">
+            <p className="text-gray-600 text-5">
               De note moyenne.
             </p>
           </div>
 
           {/* col-4 */}
-          <div className="flex flex-col items-center gap-1 pl-10">
+          <div className="flex flex-col items-center gap-1">
             <Croissant size={30} className="text-[#c08b5c]" />
             <h3 className="md:text-2xl text-10 font-semibold md:font-bold text-[#111827] ">
               100 +
             </h3>
-            <p className="text-gray-600 text-5 hidden md:block">
-              Plats préparées chaque jour.
+            <p className="text-gray-600 text-5">
+              Plats chaque jour.
             </p>
           </div>
         </div>
