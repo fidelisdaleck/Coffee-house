@@ -16,7 +16,7 @@ export default function CardMenu({ title, icon, description }: cardMenuProps) {
       </div>
       <p className="text-2xl text-[#47311d] font-semibold">{title}</p>
       <div className="w-15 h-1 bg-[#c08b5c] rounded-full mb-4"></div>
-      <p className="text-gray-500 dark:text-[#f2f2f2] text-7">{description}</p>
+      <p className="text-gray-500 dark:text-[#333333] text-7">{description}</p>
     </div>
   );
 }
