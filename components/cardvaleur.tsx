@@ -15,7 +15,7 @@ export default function CardValeur({ title, icon, description }: cardValeurProps
         {icon}
       </div>
       <p className="text-2xl text-[#47311d] font-semibold">{title}</p>
-      <p className="text-[#333333] dark:text-[#f2f2f2] text-7">{description}</p>
+      <p className="text-[#333333] text-7">{description}</p>
     </div>
   );
 }
