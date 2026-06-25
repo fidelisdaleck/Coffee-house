@@ -9,14 +9,14 @@ import {
   Star,
   Smile,
   Croissant,
-  Quote,
 } from "lucide-react";
 import CardValeur from "@/components/cardvaleur";
+import CardMember from "@/components/cardMember";
 export default function About() {
   return (
     <>
       {/* HERO SECTION */}
-      <section className="md:p-20 px-5 flex items-center justify-center">
+      <section className="mt-20 md:p-20 px-5 flex items-center justify-center">
         <div className=" space-y-5">
           <h1 className="md:text-6xl text-3xl font-semibold text-center">
             Plus qu&rsquo;un café, une expérience à partager.
@@ -128,9 +128,7 @@ export default function About() {
             <h3 className="md:text-2xl text-10 font-semibold md:font-bold text-[#111827] ">
               +10 K
             </h3>
-            <p className="text-gray-600 text-5">
-              Cafés servis.
-            </p>
+            <p className="text-gray-600 text-5">Cafés servis.</p>
           </div>
 
           {/* col-2 */}
@@ -139,9 +137,7 @@ export default function About() {
             <h3 className="md:text-2xl text-10 font-semibold md:font-bold text-[#111827] ">
               5 K+
             </h3>
-            <p className="text-gray-600 text-5">
-              Clients satisfaits.
-            </p>
+            <p className="text-gray-600 text-5">Clients satisfaits.</p>
           </div>
 
           {/* col-3 */}
@@ -150,9 +146,7 @@ export default function About() {
             <h3 className="md:text-2xl text-10 font-semibold md:font-bold text-[#111827] ">
               4/5
             </h3>
-            <p className="text-gray-600 text-5">
-              De note moyenne.
-            </p>
+            <p className="text-gray-600 text-5">De note moyenne.</p>
           </div>
 
           {/* col-4 */}
@@ -161,18 +155,71 @@ export default function About() {
             <h3 className="md:text-2xl text-10 font-semibold md:font-bold text-[#111827] ">
               100 +
             </h3>
-            <p className="text-gray-600 text-5">
-              Plats chaque jour.
-            </p>
+            <p className="text-gray-600 text-5">Plats chaque jour.</p>
           </div>
         </div>
       </section>
 
       {/* NOTRE EQUIPE */}
-      <section >
-        <div className="gap-10 grid md:grid-cols-4 grid-cols-1 mb-20">
-          
-        </div>    
+      <section className="mt-20 px-5 md:px-20">
+        <div className="mb-10">
+          <h2 className="text-2xl mb-2 font-bold text-[#333333]">
+            Notre équipe.
+          </h2>
+          <div className="w-10 h-1 bg-[#c08b5c] rounded-full mb-4"></div>
+          <p className="text-10 md:text-xl">
+            Des passionnés au service de votre plaisir.
+          </p>
+        </div>
+        <div className="mt-10 gap-10 grid md:grid-cols-4 grid-cols-1 mb-20">
+          <CardMember
+            image="/testimonies/user2.jpg"
+            name="David Mboa"
+            description="Fondateur & Directeur Général"
+          />
+
+          <CardMember
+            image="/testimonies/user1.jpg"
+            name="Sarah Ndzie"
+            description="Barista en chef"
+          />
+
+          <CardMember
+            image="/testimonies/user3.jpg"
+            name="Kevin Tchoumi"
+            description="Chef cuisto"
+          />
+
+          <CardMember
+            image="/testimonies/user1.jpg"
+            name="Amina Ndzi"
+            description="Responsable service client"
+          />
+
+          <CardMember
+            image="/testimonies/user3.jpg"
+            name="Jordan Fongang"
+            description="Barista senior"
+          />
+
+          <CardMember
+            image="/testimonies/user5.jpg"
+            name="Christelle Ndzié"
+            description="Responsable aprovisionnement"
+          />
+
+          <CardMember
+            image="/testimonies/user4.jpg"
+            name="Stéphane Nkoum"
+            description="Responsable Marketing & Communication"
+          />
+
+          <CardMember
+            image="/testimonies/user5.jpg"
+            name="Vanessa Mbarga"
+            description="Responsable Administrative & Financière"
+          />
+        </div>
       </section>
     </>
   );

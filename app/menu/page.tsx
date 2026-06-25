@@ -15,7 +15,7 @@ export default function Menu() {
   return (
     <>
       {/* HERO SECTION */}
-      <section className="md:p-20 px-5 flex items-center justify-center">
+      <section className="mt-20 md:p-20 px-5 flex items-center justify-center">
         <div className=" space-y-5">
           <h1 className="md:text-6xl text-3xl font-semibold text-center">
             Chaque plat raconte une histoire

@@ -35,9 +35,8 @@ export default function Footer() {
             <li className="mt-2 hover:text-[#c08b5c] cursor-pointer">
               Acceuil
             </li>
-            <li className="mt-2 hover:text-[#c08b5c] cursor-pointer">Menu</li>
             <li className="mt-2 hover:text-[#c08b5c] cursor-pointer">
-              Nos cafés
+              Menu
             </li>
             <li className="mt-2 hover:text-[#c08b5c] cursor-pointer">
               A propos
@@ -51,9 +50,6 @@ export default function Footer() {
         <div>
           <h2 className="text-xl text-[#c08b5c]">Informations</h2>
           <ul className="text-10 text-white">
-            <li className="mt-2 hover:text-[#c08b5c] cursor-pointer">
-              FAQ
-            </li>
             <li className="mt-2 hover:text-[#c08b5c] cursor-pointer">
               Livraison
             </li>
